@@ -16,7 +16,7 @@ set smartindent
 set backspace=indent,eol,start
 set mouse=a
 
-" WSL clipboard тАФ ╨░╨▓╤В╨╛╨╝╨░╤В╨╕╤З╨╡╤Б╨║╨╕ ╨║╨╛╨┐╨╕╤А╤Г╨╡╤В ╨┐╤А╨╕ y
+" WSL clipboard
 let s:clip = '/mnt/c/Windows/System32/clip.exe'
 if executable(s:clip)
 	augroup WSLYank
